@@ -1544,7 +1544,7 @@ def on_message(ws, message):
         timerr +=1
         chat = json.loads(message)
         print("ini courr ",timerr)
-        kesurupan = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Jing In here ðŸ”¥!"}'#spaan awal
+        kesurupan = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"ingee In here ðŸ”¥!"}'#spaan awal
         nick = chat['data']['author']['nickname']
         uid = chat['data']['author']['id']
         print(nick)
@@ -1582,24 +1582,24 @@ def on_message(ws, message):
         uproom = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"proses naikan room dimulai..."}'
         likee = [' .Thenks For Teploveâ£ï¸',' .Thank You For Sprinkling Loveâ˜ºï¸â£ ',' .Thank You The Fake LoveðŸ˜â£ ',' .Uwu Thank You For Wanting To LoveðŸ˜³â£ ']
         llike = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Akak ' + nick + random.choice(likee) + '"}'
-        tidur = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Jing Kesel dah Jing Mau Istirahat!!ðŸ˜"}'
-        bangun = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"JING MAU NYAPA YANG DATENG!!ðŸ˜"}'
-        nada = [' Apa Akak Manggil Jing ðŸ¤­',' Apa Akak Imut Manggil JingðŸ¤— ',' Kaka Jing Imut Ya Make DipanggilðŸ¤­ ',' Jangan Manggil Jing Terus WeðŸ¤£',' Apa Sih kalean manggil Jing kangen!! ðŸ˜']
+        tidur = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"ingee Kesel dah ingee Mau Istirahat!!ðŸ˜"}'
+        bangun = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"INGEE MAU NYAPA YANG DATENG!!ðŸ˜"}'
+        nada = [' Apa Akak Manggil Jing ðŸ¤­',' Apa Akak Imut Manggil JingðŸ¤— ',' Kaka Jing Imut Ya Make DipanggilðŸ¤­ ',' Jangan Manggil ingee Terus WeðŸ¤£',' Apa Sih kalean manggil ingee kangen?!! ðŸ˜']
         ping = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Apa ' + nick + random.choice(nada)+'"}'
         makasih = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"' + nick + ' unchhh sama sama zheyeng ðŸ˜˜"}'
-        jawab = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Jing disini akak  ' + nick + ' Sayang ðŸ˜˜"}'
+        jawab = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"ingee disini akak  ' + nick + ' Sayang ðŸ˜˜"}'
         sendiri = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Lihat sendiri lah ' + nick + ' nyusahin gua aja ðŸ˜’"}'
         siape = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Kamu kan akak  ' + nick + ' yang bikin aku ðŸ˜Š"}'
         rank = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Rank sudah diperbarui akak ' + nick + ' sayangðŸ˜"}'
         keluar = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Siap akak ' + nick + ' Top live sudah di update ðŸ˜˜ðŸ˜˜"}'
-        jmbttt = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Tenang Jing ada di sini kok ðŸ˜˜\n jadi yang narik berhenti aja yak ðŸ¤­"}'
-        jmbtt = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Tenang jing keluarin setanmya nya teruss ðŸ¤­ðŸ¤£ðŸ¤£ðŸ˜‚"}'
+        jmbttt = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Tenang ingee ada di sini kok ðŸ˜˜\n jadi yang narik berhenti aja yak ðŸ¤­"}'
+        jmbtt = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Tenang ingee keluarin setannya nya teruss ðŸ¤­ðŸ¤£ðŸ¤£ðŸ˜‚"}'
         topfan = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Top fan sudah diperbarui akak ' + nick + ' sayangðŸ˜"}'
-        hina = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"NOTED!\n LU INGET YE LU TUH USER BARU YANG NUMPANG NAMA SAMA GW"}'
-        hina2 = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"NOTED!\n LU TUH SAPA GW BIAR IQ LU GAK JONGKOK MAKANYA"}'
-        hina3 = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"NOTED!\n LU TANPA DEKET SAMA GW LU TUH GAK BAKAL PUNYA NAMA DI SPOON"}'
-        hina4 = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"NOTED!\n LU SIAPE SI CUMA SEKEDAR ORANG YNG GAK PUNYA MORALS"}'
-        hina5 = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"NOTED!\n LU CUMA SEKEDAR SAMPAH YA INGET"}'
+        hina = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"NOTED!\n JANGAN LUPA FAN BEYSBASTARD"}'
+        hina2 = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"NOTED!\n SENYUMMU SEMANGATKU"}'
+        hina3 = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"NOTED!\n PACARAN BERTAHUN TAHUN KENAL DI MEDSOS EH GAK SAMPE NIKAH"}'
+        hina4 = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"NOTED!\n PERNAH BERJUANG LALU DI SIA SIA KAN"}'
+        hina5 = '{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"NOTED!\n JANGAN PERNAH BERHARAP JIKA TIDAK DIHARAPKA"}'
         listjawab = [hina,hina2,hina3,hina4,hina5]
         #hina otomatis
         if evn == 'live_message' and psn[:1].lower() == 'h' and psn[-1:] == 'a' and nurut == 'off':
@@ -1614,7 +1614,7 @@ def on_message(ws, message):
         	babik = random.choice(listjawab)
         	print(babik)
         	ws.send(babik)
-        grting = ('ðŸŽ¼SELAMAT DATANGðŸŽ¼\\\\nðŸ”ˆJANGAN LUPA TAPâ¤\\\\nðŸ”ˆTAP GIFTðŸŽ\\\\nðŸ”ˆFAN TO FANðŸ‘¥\\\\nðŸŽ¼STAY ENJOY GUYS!!ðŸŽ¼"}','êœ± á´‡ ÊŸ á´€ á´ á´€ á´›  á´… á´€ á´› á´€ É´ É¢  êœ± á´‡ á´ á´œ á´€ É´ Ê á´€  ðŸŒ¹ðŸ˜\\\\nêœ± á´‡ ÊŸ á´€ á´ á´€ á´›  á´ á´‡ É´ á´… á´‡ É´ É¢ á´€ Ê€ á´‹ á´€ É´  ðŸŽ¶ðŸ¤—','Ê á´€ É´ É¢  á´› Éª á´… á´€ á´‹  á´‹ á´‡ êœ± á´€ á´˜ á´€á´Š á´€ É´ É¢ á´€ É´  Ê™ á´€ á´˜ á´‡ Ê€  Ê á´€  â˜ºï¸âœŒï¸\\\\nêœ± á´› á´€ Ê  &  á´‡ É´ á´Š á´ Ê  ðŸŽ¼','ðŸŒ¹ á´›á´‡Ê€Éªá´á´€á´‹á´€êœ±ÉªÊœ êœ±á´œá´…á´€Êœ á´›á´€á´©â¤ðŸŒ¹ \\\\nðŸŒ¹á´‡É´á´Šá´y, á´…á´€É´ êœ±á´‡á´á´É¢á´€ Ê™á´‡Ê€á´‹á´€ÊœÊœ ðŸ™ðŸŒ¹','SELAMAT DATANGðŸŒ¹\\\\nSELAMAT MENDENGARKANðŸŽ¼\\\\nRUANG RELAXðŸŽ¼ðŸŽ¶\\\\nSTAY AND ENJOYðŸŽ¶','ðŸŒ sá´œá´˜á´Ê€á´›Â á´˜á´‡É´ÊÉªá´€Ê€Â \\\\nðŸ”¹á´›á´€á´˜Â ÊŸá´á´ á´‡â¤ï¸ðŸ‘ˆðŸ»\\\\nðŸ”¹á´›á´€á´˜Â Ò“á´€É´Â á´…á´Š+á´á´ŠðŸ¥€\\\\ná´›á´‡Ê€Éªá´á´€Â á´‹á´€sÉªÊœÂ sá´œá´˜á´Ê€á´›Â á´‹á´€ÊŸÉªá´€É´Â ðŸŒ¹ðŸ™ðŸ»')
+        grting = ('ðŸŽ¼SELAMAT DATANG DI WELLCOMEðŸŽ¼\\\\nðŸ”ˆJANGAN LUPA TAPâ¤\\\\nðŸ”ˆTAP GIFTðŸŽ\\\\nðŸ”ˆFAN TO FANðŸ‘¥\\\\nðŸŽ¼STAY ENJOY GUYS!!ðŸŽ¼"}','êœ± á´‡ ÊŸ á´€ á´ á´€ á´›  á´… á´€ á´› á´€ É´ É¢  êœ± á´‡ á´ á´œ á´€ É´ Ê á´€  ðŸŒ¹ðŸ˜\\\\nêœ± á´‡ ÊŸ á´€ á´ á´€ á´›  á´ á´‡ É´ á´… á´‡ É´ É¢ á´€ Ê€ á´‹ á´€ É´  ðŸŽ¶ðŸ¤—','Ê á´€ É´ É¢  á´› Éª á´… á´€ á´‹  á´‹ á´‡ êœ± á´€ á´˜ á´€á´Š á´€ É´ É¢ á´€ É´  Ê™ á´€ á´˜ á´‡ Ê€  Ê á´€  â˜ºï¸âœŒï¸\\\\nêœ± á´› á´€ Ê  &  á´‡ É´ á´Š á´ Ê  ðŸŽ¼','ðŸŒ¹ á´›á´‡Ê€Éªá´á´€á´‹á´€êœ±ÉªÊœ êœ±á´œá´…á´€Êœ á´›á´€á´©â¤ðŸŒ¹ \\\\nðŸŒ¹á´‡É´á´Šá´y, á´…á´€É´ êœ±á´‡á´á´É¢á´€ Ê™á´‡Ê€á´‹á´€ÊœÊœ ðŸ™ðŸŒ¹','SELAMAT DATANGðŸŒ¹\\\\nSELAMAT MENDENGARKANðŸŽ¼\\\\nRUANG RELAXðŸŽ¼ðŸŽ¶\\\\nSTAY AND ENJOYðŸŽ¶','ðŸŒ sá´œá´˜á´Ê€á´›Â á´˜á´‡É´ÊÉªá´€Ê€Â \\\\nðŸ”¹á´›á´€á´˜Â ÊŸá´á´ á´‡â¤ï¸ðŸ‘ˆðŸ»\\\\nðŸ”¹á´›á´€á´˜Â Ò“á´€É´Â á´…á´Š+á´á´ŠðŸ¥€\\\\ná´›á´‡Ê€Éªá´á´€Â á´‹á´€sÉªÊœÂ sá´œá´˜á´Ê€á´›Â á´‹á´€ÊŸÉªá´€É´Â ðŸŒ¹ðŸ™ðŸ»')
         #bing timer gerting
         if timerr > 20:
         	ws.send('{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"'+random.choice(grting)+'"}')
@@ -1866,13 +1866,13 @@ def on_message(ws, message):
         if evn == 'live_message' and psn == 'ilu':
         	ws.send('{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"NOTED:\n JANGAN LAH MERENDAHKAN IQ ORANG LAIN APABILA KALIAN TIDAK TAU REALNYA!!"}')
         	#bing suruh kerja
-        if evn == 'live_message' and psn == 'jing kerja' and status == 'tidur' and nurut == 'off':
+        if evn == 'live_message' and psn == 'ingee kerja' and status == 'tidur' and nurut == 'off':
         	status = 'bangun'
         	ws.send(bangun)
         if evn == 'live_message' and psn == 'Makasih':
         	ws.send(makasih)
         #bing panggilan
-        if evn == 'live_message' and psn == 'jing' and nurut == 'off':
+        if evn == 'live_message' and psn == 'ingee' and nurut == 'off':
         	ws.send(ping)
         #ip
         if evn == 'live_message' and psn == '=ip' and nurut == 'off':
@@ -1955,12 +1955,12 @@ def on_message(ws, message):
         	
         ###### nurut #####
         if nurut == 'on':#panggilan
-        	if evn == 'live_message' and psn == 'jing' and tag in iduser:
+        	if evn == 'live_message' and psn == 'ingee' and tag in iduser:
         		ws.send(ping)
-        	if evn == 'live_message' and psn == 'jing kerja' and tag in iduser and status == 'tidur' :#kerja
+        	if evn == 'live_message' and psn == 'ingee kerja' and tag in iduser and status == 'tidur' :#kerja
         		status = 'bangun'
         		ws.send(bangun)
-        	if evn == 'live_message'  and psn == 'jing istirahat' and tag in iduser and status == 'bangun':#istirahat
+        	if evn == 'live_message'  and psn == 'ingee istirahat' and tag in iduser and status == 'bangun':#istirahat
         		status = 'tidur'
         		ws.send(tidur)
         	if evn == 'live_message' and psn == '=ip' and tag in iduser:
@@ -1972,9 +1972,9 @@ def on_message(ws, message):
         		zona = req['timezone']
         		ws.send('{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Username : '+nick+'\\\\nInfo Ip : '+ip+'\\\\nKota   : ' + cityy + ' "}')
         		#bing bebas
-        	if evn == 'live_message' and psn == 'jing bebas' and tag in iduser and nurut == 'on':
+        	if evn == 'live_message' and psn == 'ingee bebas' and tag in iduser and nurut == 'on':
         		nurut = "off"
-        		ws.send('{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Siap Jing Ikutin TuanðŸ˜Š"}')
+        		ws.send('{"appversion":"4.3.22","event":"live_message","token":"'+tokens+'","useragent":"Android","message":"Siap ingee Ikutin Tuan bey ðŸ˜Š"}')
         	#bing ketawak otomatis nurut
         	if evn == 'live_message' and psn[:1].lower() == 'w' and psn[-1:] == 'k' and tag in iduser:
         		babik = random.choice(listjawab)
@@ -2152,7 +2152,7 @@ def on_message(ws, message):
         	
         
         #bing suruh tap
-        if evn == 'live_message' and psn == 'jing tap lah' and tag in iduser:
+        if evn == 'live_message' and psn == 'ingee tap lah' and tag in iduser:
         	headers = {'Authorization':'Token 0057504cf1cf33ea19d96e4692088b0c3f08ec4d','accept':'text/htmlapplication/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
         	"origin":"https://www.spooncast.net",
         	"referer":"https://www.spooncast.net/",
@@ -2269,7 +2269,7 @@ def on_message(ws, message):
         		anti()
         #uproom 100
         if evn == 'live_message' and tag in iduser:
-        	if psn[:12] == 'jing up room':
+        	if psn[:12] == 'ingee up room':
         		cid = psn[13:]
         		if cid == '100':
         			xp = range(0,100)
@@ -2436,7 +2436,7 @@ def on_message(ws, message):
         				print("gagal token", str(token[a]))
           #bing keluar kan bot      	
         if evn == 'live_message' and tag in iduser:
-        	if psn[:12] == 'jing out bot':
+        	if psn[:12] == 'ingee out bot':
         		cid = psn[13:]
         		if cid == '100':
         			xp = range(0,100)
